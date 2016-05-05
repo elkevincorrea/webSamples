@@ -81,13 +81,13 @@ function parallaxCards(){
  }, false)
 
  window.addEventListener('mousemove', function(e){
- 	var moveX = ((e.pageX - window.innerWidth / 2) * -1 / 6) ;
+ 	var moveX = ((e.pageX - window.innerWidth / 2) * -1 / 10) ;
 	var moveY = (e.pageY * -1 / 6);
 	document.getElementById('moveX').innerHTML = e.pageX;
 	document.getElementById('moveY').innerHTML = e.pageX - window.innerWidth / 2;
  	for(var id in fansElements){
  		var fan = document.getElementById(id);
- 		fan.style.left = 100 + moveX + 'px';
+ 		fan.style.left = - 100 + moveX + 'px';
  	}
 
  	/*var fan = document.getElementById('fan');
