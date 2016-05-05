@@ -1,0 +1,167 @@
+*{
+	margin: 0px;
+	padding: 2px;
+}
+
+@font-face{
+	font-family: roboto;
+	src: url('Roboto-Light.ttf');
+}
+
+header, section, footer, nav, article, figure, figcaption, hgroup{
+	display: block;
+}
+
+body{
+	text-align: center;
+	background: #FFFFFF;
+}
+
+#page{
+	width: 95%;
+	margin: 5px;
+	text-align: left;
+	color: #212121;
+	font-family: roboto;
+	/*color: #FFE200;	*/
+}
+
+#header, #footer{
+	margin: 0px;
+	border-radius: 5px;
+	background: #1976D2;
+}
+
+#header h1{
+	margin: 5px 10px;
+}
+
+#menu li, footer{
+	background: #2196F3;
+	/*border: 1px solid #2781DB;*/
+}
+
+#menu a{
+	text-decoration: none;
+	color: white;
+}
+
+#menu li{
+	text-align: center;
+	margin: 0px;
+	width: 23%;	
+	display: inline-block;
+	list-style: none;
+	padding: 8px;
+	font: bold 12px;
+	color: white;
+}
+
+article{
+	margin: 3px;
+	background: #BBDEFB;
+	/*border: 1px solid #000000;*/
+	border-radius: 10px;
+}
+
+#noticias img{
+	width: 250px;
+	height: 200px;
+}
+
+#noticias figcaption{
+	font-size: 12px;
+}
+
+#noticias h1{
+	font-size: 20px;
+	
+}
+
+#noticias h2{
+	padding: 0px 10px;
+	font-size: 13px;
+	text-align: right;
+}
+
+#noticias p{
+	font-size: 12px;
+}
+
+#noticias figure{
+	float: left;
+}
+
+#noticias .line{
+	clear: both;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+#animes{
+	text-align: center;
+}
+
+#animes figure{
+	width: 380px;
+	height: 300px;
+	border-radius: 10px;
+	padding: 10px;
+	background: #BBDEFB;
+	margin: 4px;
+	float: left;
+}
+
+#animes img{
+	width: 95%;
+	height: 80%;
+	border-radius: 5px;
+}
+
+#contactSection{
+	text-align: center;
+}
+
+#contact{
+	display: inline-block;
+	background: #BBDEFB;
+	border-radius: 25px;
+	width: 70%;
+	height: 400px;
+}
+
+#contact h1{
+	font-size: 30px;
+}
+
+#contact fieldset {
+	border: medium none !important;
+	margin: 20px 0px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input{
+	padding: 3px;
+	height: 20px;
+	width: 50%;
+}
+
+#contact textarea{
+	width: 50%;
+	height: 130px;
+}
+
+#contact button{
+	width: 50%;
+	height: 30px;
+	border: none;
+	background: #2196F3; 
+	font-weight: bold;
+}

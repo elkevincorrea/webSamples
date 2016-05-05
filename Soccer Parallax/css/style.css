@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{	
+	overflow-x: hidden;
+}
+
+.navbar + .container{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-fixed-left{
+	position: fixed;
+	width: 30vh;
+	margin-top: 35vh;
+	padding: 0;
+	z-index: 1;
+	border-radius: 0;
+}
+
+.navbar ul{
+	list-style: none;
+	display: table;
+}
+
+.navbar img{
+	height: 34px;
+	width: 27px;
+	margin-right: 10px;
+}
+
+.navbar li{
+	background: black;
+}
+
+.navbar li > a{
+	font-size: 0;
+	color: transparent;
+}
+/*
+.navbar > ul > li:hover > a{
+	font-size: 14px;
+}*/
+
+.row .container{
+	width: 100%;
+	min-height: 12000px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.row .container *{
+	display: block;	
+}
+
+.row .container > img{
+	height: 30vh;
+	width: 28vh;
+	position: fixed;
+	top: 5%;
+	left: 5%;
+}
+
+.row .container > h1{
+	position: fixed;
+	left: 50vh;
+	top: 30px;
+	font-size: 13vh;
+	font-stretch: 20px;
+	text-shadow: rgb(46, 46, 46) 0px 4px 5px;
+}
+
+@font-face {
+font-family: 'F.C. BARCELONA';
+font-style: normal;
+font-weight: normal;
+src: local('F.C. BARCELONA'), url("../fonts/barselona.woff") format('woff');
+}
+
+#container1{
+	background: url("../img/background1.jpg") 50% repeat fixed;
+}
+
+#container1 *{
+	font-family: 'F.C. BARCELONA';
+	color: #DEB405;
+}
+
+#container2{
+	background: url("../img/background2.jpg") 50% repeat fixed;
+}
+
+#container3{
+	background: url("../img/background3.jpg") 50% repeat fixed;
+}
+
+.parallax-card{
+	width: 15%;
+	height: auto;
+	position: fixed;
+	z-index: 1;
+	right: -30%;
+	bottom: 17vh;
+}
+
+.fan-crowd{
+	background: url("../img/crowd1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 20%;
+	height: 20%;
+	position: fixed;
+	bottom: 10%;
+	z-index: 3;
+}

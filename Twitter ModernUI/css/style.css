@@ -1,0 +1,197 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	min-height: 100%;
+	position: relative;
+}
+
+body{
+	/*min-height: 100%;*/
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+nav, section{
+	display: inline-block;
+	margin: 0px;
+}
+
+nav{
+	background: #212121;
+	height: 100%;
+	color: #727272;
+	width: 17%;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+#menu li{
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	height: 40px;
+	font: normal 13px sans-serif;
+	padding: 10px 0px 20px 18%;
+}
+
+#active{
+	color: white;
+}
+
+#buttons li:hover, #options img:hover{
+	background: #00BCD4;
+}
+
+#menu img{
+	width: 50px;
+	height: 50px;
+}
+
+/*#logo{
+	background-image: url('img/twitterLogo.png');
+}*/
+
+#buttons img{
+	filter: brightness(50%);
+	-webkit-filter: brightness(50%);
+	-moz-filter: brightness(50%);
+	-o-filter: brightness(50%);
+	-ms-filter: brightness(50%);
+}
+
+#menu img, h1{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#section{
+	margin: 0px;
+	vertical-align: top;
+	background: #B6B6B6;
+	width: calc(100% - 17%);
+	height: 100%;
+	padding: 0px;
+
+	position: absolute;
+	right: 0;
+	overflow: auto;
+}
+
+#tweets{
+	margin: auto;
+	width: 60%;
+	height: 100%;
+}
+
+#tweets article{
+	clear: both;
+	background: white;
+	display: block;
+	padding: 15px 10px;
+	margin: 1px 0px;
+	min-height: 70px;
+}
+
+/*#tweets article:hover{
+	position: absolute;
+	left: 10%;
+	right: 10%;
+}*/
+
+#articleTweet img{
+	vertical-align: top;
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+}
+
+#tweet{
+	margin: 0px 10px 0px 10px;
+	display: inline-block;
+	width: calc(100% - 109px);
+}
+
+#cabecera{
+	margin: 0px 0px 5px 0px;
+}
+
+#cabecera, #text{
+	display: block;
+}
+
+#containerTime{
+	padding: 0px;
+	width: 20px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+
+#cabecera h2, h3{
+	display: inline-block;
+}
+
+#cabecera h2{
+	font-size: 20px;
+}
+
+#articleTweet h3{
+	font-size: 15px;
+	color: #B6B6B6;
+}
+
+#text{
+	clear: both;
+}
+
+#options{
+	position: absolute;
+	left: 87%;
+	top: 2%;
+}
+
+#options img{
+	width: 55px;
+	height: 55px;
+	float: left;
+}
+
+/*#options img:hover{
+	background: black;
+}*/
+
+@media only screen and (max-width: 935px){
+	#buttons h1{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	#tweets{
+		width: 70%;
+	}
+	#tweets img{
+		display: none;
+	}
+
+	#tweet{
+		width: calc(100% - 50px);
+	}
+
+	#options{
+		position: absolute;
+		left: 84%;
+		top: 2%;
+	}
+}
+}

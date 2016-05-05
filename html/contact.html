@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Contacto</title>
+	<meta charset="iso-8859-1"/>
+	<link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+</head>
+<body>
+	<div id="page">
+		<header id="header">
+			<!-- TODO: Poner imagen -->
+			<h1>Por definir</h1>
+		</header>
+		<nav id="menu">
+			<ul>
+				<li><a href="template.html">Home</a></li>	
+				<li><a href="info.html">Informaci&oacute;n</a></li>
+				<li><a href="gallery.html">Galer&iacute;a</a></li>
+				<li><a href="contact.html">Contacto</a></li>
+			</ul>
+		</nav>
+		<section id="contactSection">
+			<form id="contact" action="mail.php" method="POST">
+				<h1>Contacta Conmigo</h1>
+				<fieldset><input name="nombre" id="nombre" type="text" placeholder="Tu nombre" tabindex="1" required></fieldset>
+				<fieldset><input name="email"id="email" type="email" placeholder="Tu email" tabindex="2" required=""></fieldset>
+				<fieldset><textarea name="mensaje" placeholder="Escribe tu mensaje aqui" tabindex="3" required></textarea></fieldset>
+				<fieldset><button id="enviar" type="submit" value="Send">Enviar</button></fieldset>
+			</form>
+		</section>
+		<footer id="footer">
+			<p>Kevin Correa</p>
+			<p>2016</p>
+		</footer>
+	</div>
+</body>
+</html>
